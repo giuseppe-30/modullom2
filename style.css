@@ -1,0 +1,57 @@
+body{margin: 0;}
+
+
+header{
+width: 100hv;
+display: flex;
+border:solid black 1px; 
+box-shadow: #4f7da5;
+background-color: #6cb9fc;
+background-image: linear-gradient(to top right, #FFFFFF 0%, #155cdf 50%, #AACFEF 100%);
+}
+
+header img{
+ width: 50px;   
+height: 50px;
+border-radius: 100%;
+}
+h1{
+    margin: 0;
+    color: aliceblue;
+    margin-left: 50%;
+}
+.box{ 
+       position: sticky; top: 0;
+
+}
+footer{
+    width: 100hv;
+    height: 100px;
+    background-color: #6cb9fc;
+    background-image: linear-gradient(to top right, #FFFFFF 0%, #155cdf 50%, #AACFEF 100%);
+}
+main{
+ width: 100%;   
+height: 100%;
+background-color: yellow;
+display: flex;
+
+}
+.sezioneS{
+width: 20%;
+height: 100%;
+border: solid 1px black;
+}
+.sezioneD{
+ width: 80%;   
+height: 100%;
+border: solid 1px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.articolijobs{
+width: 300px;
+height:300px;
+border: solid black 1px;
+}
